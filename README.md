@@ -1,5 +1,19 @@
 # learn-clasp  
 
+## Usage  
+> Set environment for locally
+- import `creds.json`  
+- run command  
+for connect with server on browser
+```bash
+clasp login --creds creds.json
+```  
+- Authorized  
+```bash
+clasp pull
+```  
+---  
+
 ## Description  
 This is a learn-clasp project. Use TypeScript    
 
