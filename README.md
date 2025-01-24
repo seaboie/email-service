@@ -1,16 +1,31 @@
 # learn-clasp  
 
 ## Usage  
-> Set environment for locally
-- import `creds.json`  
-- run command  
-for connect with server on browser
+
+### Clone an existing project  
+
+> clone to `src` directory
+
+```bash
+ clasp clone <scriptId> --rootDir ./src
+```  
+
+#### Login credential  
 ```bash
 clasp login --creds creds.json
 ```  
-- Authorized  
+
+> ? What is your GCP projectId?  
+ 
+- paste your project ID in Terminal
+> `clasp-project-111111`
+
+### Create a new Apps Script Project  
+
+> clone to `src` directory
+
 ```bash
-clasp pull
+clasp create --title <project-name> --rootDir ./src
 ```  
 ---  
 
